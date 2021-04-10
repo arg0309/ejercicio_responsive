@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body, main{
+    padding: 0px;
+    margin: 0px;
+}
+/*Header and nav*/
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+header nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED5F37;
+}
+header nav ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+}
+
+header nav ol li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+}
+
+header nav ol li:hover{
+    background-color: #D41C17;
+    cursor: pointer;
+}
+
+/* Banner */
+
+.container{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://mk0eljardinrojowld9y.kinstacdn.com/wp-content/uploads/2020/06/Las-Mejores-Marcas-de-Maquillaje.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .filter .col-60{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.container .filter .col-60 h2{
+    font-family: cursive;
+    font-size: 2.8rem;
+    color: #EDB83B;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.container .filter .col-60 p{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: #EDB83B;
+}
+
+.container .filter .col-60 button{
+    width: 30%;
+    padding: 7px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #D41C17;
+    color:#EDB83B;
+}
+
+.container .filter .col-60 button:hover{
+    background-color:#EDB83B;
+    color: #D41C17;
+    cursor: pointer;
+}
+
+/* Contenido de 3 columnas */
+
+.container-main{
+    width: 100%;
+}
+
+.container-main .row{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #E6CC65;
+}
+
+.container-main .row .col-30{
+    width: 18em;
+    height: 50vh;
+    margin: 50px 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container-main .row .col-30:nth-child(1){
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/71vGJjgixFL._AC_SX425_.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.container-main .row .col-30:nth-child(2){
+    background-image: url('https://i.pinimg.com/564x/dd/2e/57/dd2e5747b0fd3404ef9d587922401ad6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.container-main .row .col-30:nth-child(3){
+    background-image: url('http://mycontainer.com.co/wp-content/uploads/2020/01/a2887bc9706fd76087696e33e2141ede-324x324.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.container-main .row .col-30 h2{
+    text-align: center;
+    background-color: #d41d17c1;
+    color: azure;
+    font-family: cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+
+.container-main .row .col-30 p{
+    text-align: center;
+    background-color: #d41d17ce;
+    color: azure;
+    font-family: cursive;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: #ED5F37;
+}
+
+footer .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .row .col-30{
+    width: 20em;
+}
+
+footer .row .col-30:nth-child(1) ul{
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 20%;
+}
+
+footer .row .col-30:nth-child(1) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+footer .row .col-30:nth-child(1) ul li:hover{
+    cursor: pointer;
+    color: #EDB83B;
+}
+
+footer .row .col-30:nth-child(2) ul{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+footer .row .col-30:nth-child(2) ul li:hover{
+    cursor: pointer;
+    color: #EDB83B;
+}
+
+footer .row .col-30:nth-child(3) p{
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 1204px){
+    header nav ol li{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1080px){
+    header nav ol li{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px){
+    footer .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .row .col-30{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .row .col-30:nth-child(1) ul{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    footer .row .col-30:nth-child(1) ul li{
+        text-align: center;
+    }
+    footer .row .col-30:nth-child(2) ul{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    footer .row .col-30:nth-child(2) ul li{
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px){
+    header nav ol li{
+        font-size: 1.2em;
+    }
+    .container .filter .col-60{
+        margin-left: 80px
+    }
+    .container .filter .col-60 h2{
+       font-size: 2em;
+       text-align: center;
+    }
+    .container .filter .col-60 p{
+        text-align: center;
+    }
+    .container .filter .col-60 button{
+        width: 100%;
+    } 
+    .container-main .row{
+        flex-direction: column;
+    }  
+    .container-main .row .col-30{
+        width: 80%;
+    }      
+}
+
+@media (max-width: 320px){
+    header{
+        height: 100%;
+    }
+    header nav{
+        height: 100%;
+    }
+    header nav ol {
+        flex-direction: column;
+    }
+    .container.container .filter .col-60{
+        margin-left: 70px
+    }
+}
